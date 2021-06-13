@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="checkbox-grid">
+    <div *ngFor="let num of checkboxes; index as i">
+      <input id="{{num.id}}" class="c" type="checkbox"
+             (mouseover)="hoverElement($event, num)" [(ngModel)]="checkboxes[i].isChecked"/>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox-grid div {
+  display: flex;
+  float: left;
+  flex:  1 1 160px;
+}
+
+.checkbox-grid {
+  width: 400px;
+}
+
+.c {
+  margin: 0 !important;
+}
+
